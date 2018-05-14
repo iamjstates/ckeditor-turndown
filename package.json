@@ -1,5 +1,5 @@
 {
-  "name": "@iamjstates/ckeditor5-turndown",
+  "name": "@iamjstates/ckeditor-turndown",
   "version": "0.0.1",
   "description": "CKEditor 5 Markdown Support.",
   "keywords": [
@@ -29,15 +29,13 @@
     "author": "Jay States",
     "license": "GPL-2.0-or-later",
     "homepage": "https://iam.jstat.es",
-    "bugs": "https://github.com/iamjstates/ckeditor5-turndown/issues",
+    "bugs": "https://github.com/iamjstates/ckeditor-turndown/issues",
     "repository": {
       "type": "git",
-      "url": "https://github.com/iamjstates/ckeditor5-turndown.git"
+      "url": "https://github.com/iamjstates/ckeditor-turndown.git"
   },
   "files": [
-    "lang",
     "src",
-    "theme"
   ],
   "scripts": {
     "lint": "eslint --quiet '**/*.js'",
