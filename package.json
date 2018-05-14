@@ -1,0 +1,55 @@
+{
+  "name": "@iamjstates/ckeditor5-turndown",
+  "version": "0.0.1",
+  "description": "CKEditor 5 Markdown Support.",
+  "keywords": [
+    "ckeditor5-build",
+    "CKEditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "WYSIWYG",
+    "WYSIWYM",
+    "real-time",
+    "virtual dom",
+    "framework"
+  ],
+  "dependencies": {
+    "@ckeditor/ckeditor5-markdown-gfm": "^10.0.0",
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-ckeditor5": "^1.0.7",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+    "author": "Jay States",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://iam.jstat.es",
+    "bugs": "https://github.com/iamjstates/ckeditor5-turndown/issues",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/iamjstates/ckeditor5-turndown.git"
+  },
+  "files": [
+    "lang",
+    "src",
+    "theme"
+  ],
+  "scripts": {
+    "lint": "eslint --quiet '**/*.js'",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --quiet"
+    ]
+  },
+  "eslintIgnore": [
+    "src/lib/**",
+    "packages/**"
+  ]
+}
