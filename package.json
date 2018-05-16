@@ -15,9 +15,9 @@
   ],
   "dependencies": {
     "@ckeditor/ckeditor5-core": "^10.0.0",
-    "@domchristie/turndown-plugin-gfm": "^1.0.2",
-    "@domchristie/turndown": "^4.0.2",
-    "@showdownjs/showdown": "^2.0.0-alpha1"
+    "turndown-plugin-gfm": "^1.0.2",
+    "turndown": "^4.0.2",
+    "showdown": "^1.8.6"
   },
   "devDependencies": {
     "eslint": "^4.15.0",
