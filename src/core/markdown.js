@@ -1,7 +1,7 @@
 import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
-import TurndownService from 'turndown';
-import gfm from 'turndown-plugin-gfm';
-import showdown from 'showdown';
+import TurndownService from './lib/turndown';
+import gfm from './lib/turndown-plugin-gfm';
+import showdown from './lib/showdown';
 
 const turndownService = TurndownService.use(gfm);
 const converter = new showdown.Converter();

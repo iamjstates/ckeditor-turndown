@@ -11,17 +11,17 @@ import markdown from './core/markdown';
  * @extends module:core/plugin~Plugin
  */
 export default class Markdown extends Plugin {
-    /**
-     * @inheritDoc
-     */
-    static get requires() {
-        return [ markdown ];
-    }
+  /**
+   * @inheritDoc
+   */
+  static get requires() {
+    return [ markdown ];
+  }
 
-    /**
-     * @inheritDoc
-     */
-    static get pluginName() {
-        return 'Markdown';
-    }
+  /**
+   * @inheritDoc
+   */
+  static get pluginName() {
+    return 'Markdown';
+  }
 }
